@@ -203,8 +203,42 @@ public class HlavniProgram {
         zofka.turnRight(90);
         zofka.penDown();
 
-       
+        // prasatko
+        zofka.move(100);
+        zofka.turnLeft(120);
+        zofka.move(100);
+        zofka.turnLeft(115);
+        zofka.move(100);
+        zofka.turnLeft(36);
+        zofka.move(120);
+        zofka.turnLeft(90);
+        zofka.move(110);
+        zofka.turnLeft(90);
+        zofka.move(110);
 
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(110);
+        zofka.penDown();
+
+        zofka.turnLeft(30);
+        zofka.move(40);
+        zofka.turnLeft(180);
+        zofka.move(40);
+        zofka.turnLeft(115);
+        zofka.move(40);
+
+        zofka.penUp();
+        zofka.turnRight(222);
+        zofka.move(135);
+        zofka.turnRight(60);
+
+        zofka.penDown();
+        zofka.move(40);
+        zofka.turnLeft(180);
+        zofka.move(40);
+        zofka.turnLeft(115);
+        zofka.move(40);
 
 
     }
